@@ -15,33 +15,35 @@
     .lang-switch {
       display: flex;
       align-items: center;
-      width: 130px;
-      height: 30px;
+      width: 78px;
+      height: 22px;
       overflow: hidden;
       border: 1px solid #c7c7c7;
-      border-radius: 18px;
+      border-radius: 14px;
       background-color: white;
+      flex-shrink: 0;
     }
 
     .lang-btn {
       display: flex;
       align-items: center;
       justify-content: center;
-      gap: 5px;
+      gap: 3px;
       width: 50%;
       height: 100%;
       border: none;
       background-color: white;
       color: #1f2937;
-      font-size: 11px;
+      font-size: 9px;
+      font-weight: 600;
       cursor: pointer;
       transition: background-color 0.2s ease, color 0.2s ease;
     }
 
     .lang-btn img {
       display: block;
-      width: 12px;
-      height: 12px;
+      width: 9px;
+      height: 9px;
       object-fit: cover;
       border-radius: 50%;
     }
@@ -52,19 +54,31 @@
     }
 
     .lang-btn:first-child.active {
-      border-radius: 18px 0 0 18px;
+      border-radius: 14px 0 0 14px;
     }
 
     .lang-btn:last-child.active {
-      border-radius: 0 18px 18px 0;
+      border-radius: 0 14px 14px 0;
     }
-
 
     header#header {
       display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      gap: 8px;
+    }
+
+    header#header .icons {
+      margin: 0;
+    }
+
+    header#header .header-main-row {
+      display: flex;
       align-items: center;
       justify-content: space-between;
+      width: 100%;
       flex-wrap: wrap;
+      gap: 10px;
     }
   </style>
 </head>
@@ -80,27 +94,29 @@
 
         <!-- Header -->
         <header id="header">
-          <a href="index.html" class="logo" data-pt="<strong>Portifólio de projetos</strong> de Ciência de Dados"
-            data-en="<strong>Data Science</strong> Project Portfolio"><strong>Portifólio de projetos</strong> de Ciência
-            de Dados</a>
           <ul class="icons">
             <li><a href="https://www.instagram.com/pedrosa_fel/?hl=en" class="icon brands fa-instagram"><span
                   class="label">Instagram</span></a></li>
             <li><a href="https://medium.com/@felipepedrosacpv" class="icon brands fa-medium-m"><span
                   class="label">Medium</span></a></li>
           </ul>
-          <div class="lang-switch">
-            <button id="btn-pt" class="lang-btn active" onclick="setLang('pt')">
-              <img src="images/Flag_of_Brazil.svg.webp" alt="Brasil">
-              <span>PT</span>
-            </button>
+          <div class="header-main-row">
+            <a href="index.html" class="logo" data-pt="<strong>Portifólio de projetos</strong> de Ciência de Dados"
+              data-en="<strong>Data Science</strong> Project Portfolio"><strong>Portifólio de projetos</strong> de
+              Ciência de Dados</a>
+            <div class="lang-switch">
+              <button id="btn-pt" class="lang-btn active" onclick="setLang('pt')">
+                <img src="images/Flag_of_Brazil.svg.webp" alt="Brasil">
+                <span>PT</span>
+              </button>
 
-            <button id="btn-en" class="lang-btn" onclick="setLang('en')">
-              <img src="images/Flag_of_the_United_States.svg.webp" alt="Estados Unidos">
-              <span>EN</span>
-            </button>
+              <button id="btn-en" class="lang-btn" onclick="setLang('en')">
+                <img src="images/Flag_of_the_United_States.svg.webp" alt="Estados Unidos">
+                <span>EN</span>
+              </button>
+            </div>
           </div>
-        </header>`
+        </header>
 
         <!-- Banner -->
         <section id="banner">

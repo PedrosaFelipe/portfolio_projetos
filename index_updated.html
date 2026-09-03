@@ -1,0 +1,672 @@
+<!DOCTYPE HTML>
+<!--
+	Editorial by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html lang="pt-BR" id="html-root">
+
+<head>
+  <title id="page-title">Projetos de Portifólio de ciência de dados</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+  <link rel="stylesheet" href="assets/css/main.css" />
+  <style>
+    .lang-switch {
+      display: flex;
+      align-items: center;
+      width: 78px;
+      height: 22px;
+      overflow: hidden;
+      border: 1px solid #c7c7c7;
+      border-radius: 14px;
+      background-color: white;
+      flex-shrink: 0;
+    }
+
+    .lang-btn {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 3px;
+      width: 50%;
+      height: 100%;
+      border: none;
+      background-color: white;
+      color: #1f2937;
+      font-size: 9px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: background-color 0.2s ease, color 0.2s ease;
+    }
+
+    .lang-btn img {
+      display: block;
+      width: 9px;
+      height: 9px;
+      object-fit: cover;
+      border-radius: 50%;
+    }
+
+    .lang-btn.active {
+      background-color: #087af5;
+      color: white;
+    }
+
+    .lang-btn:first-child.active {
+      border-radius: 14px 0 0 14px;
+    }
+
+    .lang-btn:last-child.active {
+      border-radius: 0 14px 14px 0;
+    }
+
+    header#header {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      gap: 8px;
+    }
+
+    header#header .icons {
+      margin: 0;
+    }
+
+    header#header .header-main-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 100%;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+  </style>
+</head>
+
+<body class="is-preload">
+
+  <!-- Wrapper -->
+  <div id="wrapper">
+
+    <!-- Main -->
+    <div id="main">
+      <div class="inner">
+
+        <!-- Header -->
+        <header id="header">
+          <ul class="icons">
+            <li><a href="https://www.instagram.com/pedrosa_fel/?hl=en" class="icon brands fa-instagram"><span
+                  class="label">Instagram</span></a></li>
+            <li><a href="https://medium.com/@felipepedrosacpv" class="icon brands fa-medium-m"><span
+                  class="label">Medium</span></a></li>
+          </ul>
+          <div class="header-main-row">
+            <a href="index.html" class="logo" data-pt="<strong>Portifólio de projetos</strong> de Ciência de Dados"
+              data-en="<strong>Data Science</strong> Project Portfolio"><strong>Portifólio de projetos</strong> de
+              Ciência de Dados</a>
+            <div class="lang-switch">
+              <button id="btn-pt" class="lang-btn active" onclick="setLang('pt')">
+                <img src="images/Flag_of_Brazil.svg.webp" alt="Brasil">
+                <span>PT</span>
+              </button>
+
+              <button id="btn-en" class="lang-btn" onclick="setLang('en')">
+                <img src="images/Flag_of_the_United_States.svg.webp" alt="Estados Unidos">
+                <span>EN</span>
+              </button>
+            </div>
+          </div>
+        </header>
+
+        <!-- Banner -->
+        <section id="banner">
+          <div class="content">
+            <header>
+              <h1 data-pt="Olá, seja muito bem-vindo(a) ao meu portifolio de projetos de Ciência de dados.<br />"
+                data-en="Hello, welcome to my Data Science project portfolio.<br />">Olá, seja muito bem-vindo(a) ao meu
+                portifolio de projetos de Ciência de dados.<br />
+              </h1>
+              <p data-pt="Nessa página, eu demonstro minhas habilidades de resolver problemas de negócios utilizando conceitos e ferramentas de Ciência de Dados, através de projetos com dados públicos."
+                data-en="On this page, I demonstrate my ability to solve business problems using Data Science concepts and tools, through projects built with public data.">
+                Nessa página, eu demonstro minhas habilidades de resolver problemas de negócios utilizando conceitos e
+                ferramentas de Ciência de Dados,
+                através de projetos com dados públicos.</p>
+            </header>
+            <p data-pt="Você vai encontrar também minhas experiências, habilidades, ferramentas e conceitos envolvendo a Ciência de dados.<br />Sinta-se à vontade para entrar em contato através dos links no final da página."
+              data-en="You'll also find my experience, skills, tools and concepts related to Data Science.<br />Feel free to reach out through the links at the bottom of the page.">
+              Você vai encontrar também minhas experiências, habilidades, ferramentas e conceitos envolvendo a Ciência
+              de dados.<br />
+              Sinta-se à vontade para entrar em contato através dos links no final da página.</p>
+
+          </div>
+          <span class="image object">
+            <img src="images/profile2.jpg" alt="" />
+          </span>
+        </section>
+
+        <!-- Sobre Mim -->
+        <section>
+          <header class="main">
+            <h1 data-pt="Sobre Mim" data-en="About Me">Sobre Mim</h1>
+          </header>
+
+          <!-- Content -->
+          <section>
+            <h2 id="content" data-pt="Meu nome é Felipe Pedrosa" data-en="My name is Felipe Pedrosa">Meu nome é Felipe
+              Pedrosa</h2>
+            <p data-pt="Moro em Florianópolis, SC. Estudei Engenharia na UFSC e já fiz parte da Comunidade DS, onde desenvolvi projetos com foco em Ciência de Dados aplicada a negócios reais."
+              data-en="I live in Florianópolis, SC (Brazil). I studied Engineering at UFSC and was part of Comunidade DS, where I developed projects focused on Data Science applied to real business problems.">
+              Moro em Florianópolis, SC. Estudei Engenharia na UFSC e já fiz parte da Comunidade DS, onde desenvolvi
+              projetos com foco em Ciência de Dados aplicada a negócios reais.</p>
+
+            <p data-pt="Sou formado em Técnico de Informática Industrial pela ETEP e em Automação Industrial pela ETEC, ambas em São José dos Campos (SP). Atuei como técnico de informática e hoje direciono minha carreira para soluções em dados e automações inteligentes."
+              data-en="I hold technical degrees in Industrial IT (ETEP) and Industrial Automation (ETEC), both in São José dos Campos (SP), Brazil. I worked as an IT technician and today I focus my career on data solutions and intelligent automation.">
+              Sou formado em Técnico de Informática Industrial pela ETEP e em Automação Industrial pela ETEC, ambas em
+              São José dos Campos (SP). Atuei como técnico de informática e hoje direciono minha carreira para soluções
+              em dados e automações inteligentes.</p>
+
+            <p data-pt="Atualmente atuo como <strong>Cientista de Dados e Consultor Freelancer</strong>, ajudando empresas a implementar soluções de automação, IA generativa e análises preditivas. Também trabalhei por dois anos como Cientista de Dados na <strong>Emflora – Empreendimentos Florestais Ltda</strong>, sendo responsável por iniciar e liderar a aplicação de estratégias de Ciência de Dados voltadas à eficiência operacional e financeira. Alguns dos projetos desenvolvidos incluem:"
+              data-en="I currently work as a <strong>Data Scientist and Freelance Consultant</strong>, helping companies implement automation, generative AI, and predictive analytics solutions. I also worked for two years as a Data Scientist at <strong>Emflora – Empreendimentos Florestais Ltda</strong>, where I initiated and led the application of Data Science strategies focused on operational and financial efficiency. Some of the projects developed include:">
+              Atualmente atuo como <strong>Cientista de Dados e Consultor Freelancer</strong>, ajudando empresas a
+              implementar soluções de automação, IA generativa e análises preditivas. Também trabalhei por dois anos
+              como Cientista de Dados na <strong>Emflora – Empreendimentos Florestais Ltda</strong>, sendo responsável
+              por iniciar e liderar a aplicação de estratégias de Ciência de Dados voltadas à eficiência operacional e
+              financeira. Alguns dos projetos desenvolvidos incluem:</p>
+
+            <ul>
+              <li
+                data-pt="<strong>Automação com OCR:</strong> Pipeline automatizado para extração de informações de cartões de ponto, reduzindo erros manuais e acelerando a gestão de presença dos funcionários."
+                data-en="<strong>OCR Automation:</strong> Automated pipeline to extract information from timecards, reducing manual errors and speeding up employee attendance management.">
+                <strong>Automação com OCR:</strong> Pipeline automatizado para extração de informações de cartões de
+                ponto, reduzindo erros manuais e acelerando a gestão de presença dos funcionários.
+              </li>
+
+              <li
+                data-pt="<strong>Chatbot inteligente interno:</strong> Desenvolvimento de um assistente virtual treinado com o manual da empresa, utilizando LLMs com arquitetura Transformers (Hugging Face), RAG, Redis para cache e Gunicorn para deploy em produção."
+                data-en="<strong>Internal Intelligent Chatbot:</strong> Development of a virtual assistant trained on the company manual, using LLMs with Transformers architecture (Hugging Face), RAG, Redis for caching and Gunicorn for production deployment.">
+                <strong>Chatbot inteligente interno:</strong> Desenvolvimento de um assistente virtual treinado com o
+                manual da empresa, utilizando LLMs com arquitetura Transformers (Hugging Face), RAG, Redis para cache e
+                Gunicorn para deploy em produção.
+              </li>
+
+              <li
+                data-pt="<strong>Modelos de predição de estoque e compras:</strong> Utilização de XGBoost, LSTM e Random Forest para prever níveis de estoque e otimizar o ponto de recompra. Resultados visualizados via Power BI para apoiar a tomada de decisão."
+                data-en="<strong>Inventory and Purchasing Prediction Models:</strong> Use of XGBoost, LSTM and Random Forest to forecast stock levels and optimize reorder points. Results visualized via Power BI to support decision-making.">
+                <strong>Modelos de predição de estoque e compras:</strong> Utilização de XGBoost, LSTM e Random Forest
+                para prever níveis de estoque e otimizar o ponto de recompra. Resultados visualizados via Power BI para
+                apoiar a tomada de decisão.
+              </li>
+
+              <li
+                data-pt="<strong>Predição financeira por departamento:</strong> Criação de modelos para estimar receitas e custos mensais por área, com uso de SARIMA e machine learning, organizados em pipelines com PostgreSQL e ELT, integrados ao Power BI."
+                data-en="<strong>Departmental Financial Forecasting:</strong> Creation of models to estimate monthly revenue and costs per area, using SARIMA and machine learning, organized in pipelines with PostgreSQL and ELT, integrated with Power BI.">
+                <strong>Predição financeira por departamento:</strong> Criação de modelos para estimar receitas e custos
+                mensais por área, com uso de SARIMA e machine learning, organizados em pipelines com PostgreSQL e ELT,
+                integrados ao Power BI.
+              </li>
+
+              <li
+                data-pt="<strong>Dashboards completos em Power BI:</strong> Visualizações estratégicas que uniam clima, tipo de solo, maquinário e contratos para entender prejuízos operacionais como máquinas presas por chuvas e deslizamentos."
+                data-en="<strong>Complete Power BI Dashboards:</strong> Strategic visualizations combining weather, soil type, machinery and contracts to understand operational losses such as machines stuck due to rain and landslides.">
+                <strong>Dashboards completos em Power BI:</strong> Visualizações estratégicas que uniam clima, tipo de
+                solo, maquinário e contratos para entender prejuízos operacionais como máquinas presas por chuvas e
+                deslizamentos.
+              </li>
+            </ul>
+
+            <p data-pt="Também desenvolvo projetos pessoais voltados à análise de dados, automação com Python, integração com APIs, scraping e visualizações interativas. Estou em busca de oportunidades onde eu possa aplicar esses conhecimentos para resolver problemas reais e gerar valor com dados."
+              data-en="I also develop personal projects focused on data analysis, Python automation, API integration, scraping and interactive visualizations. I'm looking for opportunities to apply this knowledge to solve real problems and generate value with data.">
+              Também desenvolvo projetos pessoais voltados à análise de dados, automação com Python, integração com
+              APIs, scraping e visualizações interativas. Estou em busca de oportunidades onde eu possa aplicar esses
+              conhecimentos para resolver problemas reais e gerar valor com dados.</p>
+          </section>
+
+          <!-- Section -->
+          <section>
+            <header class="major">
+              <h2 data-pt="Habilidades" data-en="Skills">Habilidades</h2>
+            </header>
+            <div class="features">
+              <article>
+                <span class="icon solid fa-code"></span>
+                <div class="content">
+                  <h3 data-pt="Linguagem de Programação e Banco de Dados" data-en="Programming Languages and Databases">
+                    Linguagem de Programação e Banco de Dados</h3>
+                  <ul>
+                    <li data-pt="Python com foco em análise de dados." data-en="Python focused on data analysis.">Python
+                    com foco em análise de dados.</li>
+                    <li data-pt="Web scraping com Python." data-en="Web scraping with Python.">Web scraping com Python.
+                    </li>
+                    <li data-pt="SQL para extração de dados." data-en="SQL for data extraction.">SQL para extração de
+                    dados.</li>
+                    <li data-pt="R para modelagem estatistica." data-en="R for statistical modeling.">R para modelagem
+                    estatistica.</li>
+                    <li data-pt="Banco de Dados SQLITE, PostgreSQL, MySQL, Oracle."
+                    data-en="SQLITE, PostgreSQL, MySQL, Oracle databases.">Banco de Dados SQLITE, PostgreSQL, MySQL,
+                    Oracle.</li>
+                    <li data-pt="Conceitos de ETL." data-en="ETL concepts.">Conceitos de ETL.</li>
+                    <li data-pt="Pensamento estratégico." data-en="Strategic thinking.">Pensamento estratégico.</li>
+                  </ul>
+                </div>
+              </article>
+              <article>
+                <span class="icon solid fa-paper-plane"></span>
+                <div class="content">
+                  <h3 data-pt="Estatistica e Machine Learning " data-en="Statistics and Machine Learning ">Estatistica e
+                    Machine Learning </h3>
+                  <ul>
+                    <li data-pt="Estatistica descritiva(localização , dispersão , assimetria , kurtosis, densidade)."
+                    data-en="Descriptive statistics (location, dispersion, skewness, kurtosis, density).">Estatistica
+                    descritiva(localização , dispersão , assimetria , kurtosis, densidade).</li>
+                    <li data-pt="Algoritmos de Regressão, classificação, clusterização e " learn to rank"."
+                    data-en="Regression, classification, clustering and " learn to rank" algorithms.">Algoritmos de
+                    Regressão, classificação, clusterização e "learn to rank".</li>
+                    <li
+                    data-pt="Técnicas de balanceamento dos dados, seleção de atributos e redução de dimensionalidade."
+                    data-en="Data balancing, feature selection and dimensionality reduction techniques.">Técnicas de
+                    balanceamento dos dados, seleção de atributos e redução de dimensionalidade.</li>
+                    <li
+                    data-pt="Métricas de performance dos algoritmos (RMSE , MAE, MAPE, Confusion Matrix, Precisão, Recall, Curva ROC, Curva Lift, AUC, Silhouette Score, DB-Index, Cumulative Gain)."
+                    data-en="Algorithm performance metrics (RMSE, MAE, MAPE, Confusion Matrix, Precision, Recall, ROC Curve, Lift Curve, AUC, Silhouette Score, DB-Index, Cumulative Gain).">
+                    Métricas de performance dos algoritmos (RMSE , MAE, MAPE, Confusion Matrix, Precisão, Recall,
+                    Curva ROC, Curva Lift, AUC, Silhouette Score, DB-Index, Cumulative Gain).</li>
+                    <li data-pt="Pacotes de Machine Learning: Sklearn e Scipy."
+                    data-en="Machine Learning packages: Sklearn and Scipy.">Pacotes de Machine Learning: Sklearn e
+                    Scipy.</li>
+                  </ul>
+                </div>
+              </article>
+              <article>
+                <span class="icon solid fa-rocket"></span>
+                <div class="content">
+                  <h3 data-pt="Visualização de Dados " data-en="Data Visualization ">Visualização de Dados </h3>
+                  <ul>
+                    <li data-pt="Matplotlib, Seaborn, Plotly e Bokeh." data-en="Matplotlib, Seaborn, Plotly and Bokeh.">
+                    Matplotlib, Seaborn, Plotly e Bokeh.</li>
+                    <li data-pt="Power BI, Tableau, Metabase e Streamlit."
+                    data-en="Power BI, Tableau, Metabase and Streamlit.">Power BI, Tableau, Metabase e Streamlit.</li>
+                  </ul>
+                </div>
+              </article>
+              <article>
+                <span class="icon solid fa-signal"></span>
+                <div class="content">
+                  <h3 data-pt="Engenharia de Software" data-en="Software Engineering">Engenharia de Software</h3>
+                  <ul>
+                    <li data-pt="Git, Github, Gitlab, Cookiecutter, Virtual Enviroment, Docker e WSL2."
+                    data-en="Git, Github, Gitlab, Cookiecutter, Virtual Environment, Docker and WSL2.">Git, Github,
+                    Gitlab, Cookiecutter, Virtual Enviroment, Docker e WSL2.</li>
+                    <li data-pt="Streamlite Cloud, Flask, Python API's." data-en="Streamlit Cloud, Flask, Python APIs.">
+                    Streamlite Cloud, Flask, Python API's.</li>
+                    <li data-pt="Cloud Heroku, AWS Amazon e Google Cloud Plataform (GCP) e Azure."
+                    data-en="Heroku Cloud, AWS Amazon, Google Cloud Platform (GCP) and Azure.">Cloud Heroku, AWS
+                    Amazon e Google Cloud Plataform (GCP) e Azure.</li>
+                  </ul>
+                </div>
+              </article>
+            </div>
+          </section>
+
+          <!-- Experiência -->
+          <header class="main">
+            <h1 data-pt="Experiências Profissionais" data-en="Professional Experience">Experiências Profissionais</h1>
+          </header>
+
+          <h2 id="content" data-pt="Cientista de Dados – 2 anos na Emflora (Empreendimentos Florestais Ltda)"
+            data-en="Data Scientist – 2 years at Emflora (Empreendimentos Florestais Ltda)">Cientista de Dados – 2 anos
+            na Emflora (Empreendimentos Florestais Ltda)</h2>
+          <p data-pt="Responsável por iniciar a aplicação de estratégias de Ciência de Dados voltadas à otimização de processos operacionais e financeiros da empresa. Principais projetos:"
+            data-en="Responsible for initiating the application of Data Science strategies focused on optimizing the company's operational and financial processes. Main projects:">
+            Responsável por iniciar a aplicação de estratégias de Ciência de Dados voltadas à otimização de processos
+            operacionais e financeiros da empresa. Principais projetos:</p>
+          <ul>
+            <li
+              data-pt="<strong>OCR automatizado:</strong> Pipeline em Python para leitura automática de cartões de ponto, reduzindo erros e tempo de processamento. Impacto: potencial de redução de 60% a 75% no esforço manual, preservando a integridade dos registros de folha de pagamento e banco de horas."
+              data-en="<strong>Automated OCR:</strong> Python pipeline for automatic reading of timecards, reducing errors and processing time. Impact: potential 60% to 75% reduction in manual effort, while preserving the integrity of payroll and time-bank records.">
+              <strong>OCR automatizado:</strong> Pipeline em Python para leitura automática de cartões de ponto,
+              reduzindo erros e tempo de processamento. Impacto: potencial de redução de 60% a 75% no esforço manual,
+              preservando a integridade dos registros de folha de pagamento e banco de horas.
+            </li>
+            <li
+              data-pt="<strong>Chatbot com IA:</strong> Assistente virtual treinado com LLMs (Hugging Face + RAG), cache com Redis e deploy com Gunicorn, para suporte interno automatizado. Resultado: suporte interno mais confiável, padronizado e escalável."
+              data-en="<strong>AI Chatbot:</strong> Virtual assistant trained with LLMs (Hugging Face + RAG), Redis caching and Gunicorn deployment, for automated internal support. Result: more reliable, standardized and scalable internal support.">
+              <strong>Chatbot com IA:</strong> Assistente virtual treinado com LLMs (Hugging Face + RAG), cache com
+              Redis e deploy com Gunicorn, para suporte interno automatizado. Resultado: suporte interno mais confiável,
+              padronizado e escalável.
+            </li>
+            <li
+              data-pt="<strong>Predição de estoque:</strong> Modelos com XGBoost, LSTM e Random Forest para antecipar necessidades de compra e evitar rupturas. Impacto: potencial de redução de até 18% no excesso de estoque e melhora projetada de 20% na rentabilidade operacional."
+              data-en="<strong>Inventory Prediction:</strong> Models with XGBoost, LSTM and Random Forest to anticipate purchasing needs and avoid stockouts. Impact: potential reduction of up to 18% in excess inventory and a projected 20% improvement in operating profitability.">
+              <strong>Predição de estoque:</strong> Modelos com XGBoost, LSTM e Random Forest para antecipar
+              necessidades de compra e evitar rupturas. Impacto: potencial de redução de até 18% no excesso de estoque e
+              melhora projetada de 20% na rentabilidade operacional.
+            </li>
+            <li
+              data-pt="<strong>Forecast financeiro:</strong> Modelagem com SARIMA e ML para previsão de receita/custos por departamento, com pipeline em PostgreSQL e visualização em Power BI. Impacto: maior previsibilidade orçamentária e decisões financeiras mais assertivas por área."
+              data-en="<strong>Financial Forecast:</strong> Modeling with SARIMA and ML to forecast revenue/costs by department, with a PostgreSQL pipeline and Power BI visualization. Impact: greater budget predictability and more assertive financial decisions per area.">
+              <strong>Forecast financeiro:</strong> Modelagem com SARIMA e ML para previsão de receita/custos por
+              departamento, com pipeline em PostgreSQL e visualização em Power BI. Impacto: maior previsibilidade
+              orçamentária e decisões financeiras mais assertivas por área.
+            </li>
+            <li
+              data-pt="<strong>Dashboards agrícolas:</strong> Painéis analíticos para monitorar tratores e caminhões presos por condições climáticas, cruzando clima, solo, tipo de máquina e prejuízos. Impacto: apoiou a redução de prejuízos operacionais e decisões mais rápidas em campo."
+              data-en="<strong>Agricultural Dashboards:</strong> Analytical dashboards to monitor tractors and trucks stuck due to weather conditions, cross-referencing climate, soil, machine type and losses. Impact: supported the reduction of operational losses and faster decisions in the field.">
+              <strong>Dashboards agrícolas:</strong> Painéis analíticos para monitorar tratores e caminhões presos por
+              condições climáticas, cruzando clima, solo, tipo de máquina e prejuízos. Impacto: apoiou a redução de
+              prejuízos operacionais e decisões mais rápidas em campo.
+            </li>
+          </ul>
+
+          <h2 id="content" data-pt="9+ Projetos completos de Ciência de Dados"
+            data-en="9+ Completed Data Science Projects">9+ Projetos completos de Ciência de Dados</h2>
+          <p data-pt="Construção de soluções de dados para problemas de negócio, próximos dos desafios reais das empresas, utilizando dados públicos de competições de Ciência de Dados. Atuei desde a concepção do desafio até a publicação do algoritmo treinado em produção, utilizando ferramentas de Cloud Computing."
+            data-en="Building data solutions for business problems close to real company challenges, using public data from Data Science competitions. I worked from the conception of the challenge through to publishing the trained algorithm in production, using Cloud Computing tools.">
+            Construção de soluções de dados para problemas de negócio, próximos dos desafios reais das empresas,
+            utilizando dados públicos de competições de Ciência de Dados. Atuei desde a concepção do desafio até a
+            publicação do algoritmo treinado em produção, utilizando ferramentas de Cloud Computing.</p>
+
+          <h2 id="content" data-pt="2 anos como técnico de informática" data-en="2 years as an IT technician">2 anos
+            como técnico de informática</h2>
+          <p data-pt="Durante dois anos atuei como técnico de informática, realizando manutenção de notebooks e computadores, além de atender diretamente o público em loja, desenvolvendo habilidades com vendas e suporte técnico."
+            data-en="For two years I worked as an IT technician, performing maintenance on laptops and computers, as well as serving customers directly in-store, developing sales and technical support skills.">
+            Durante dois anos atuei como técnico de informática, realizando manutenção de notebooks e computadores, além
+            de atender diretamente o público em loja, desenvolvendo habilidades com vendas e suporte técnico.</p>
+
+          <h2 id="content" data-pt="6 meses como monitor de estatística"
+            data-en="6 months as a statistics teaching assistant">6 meses como monitor de estatística</h2>
+          <p data-pt="Após cursar uma disciplina de estatística na faculdade, atuei como monitor por um semestre. Durante esse período, desenvolvi minha capacidade de explicar conceitos técnicos de forma clara e acessível."
+            data-en="After taking a statistics course in college, I worked as a teaching assistant for one semester. During this period, I developed my ability to explain technical concepts clearly and accessibly.">
+            Após cursar uma disciplina de estatística na faculdade, atuei como monitor por um semestre. Durante esse
+            período, desenvolvi minha capacidade de explicar conceitos técnicos de forma clara e acessível.</p>
+
+          <div class="row">
+
+
+
+        </section>
+
+        <!-- Section -->
+        <section>
+          <header class="major">
+            <h1 data-pt="PROJETOS EM CIÊNCIA DE DADOS" data-en="DATA SCIENCE PROJECTS">PROJETOS EM CIÊNCIA DE DADOS</h1>
+          </header>
+          <div class="posts">
+            <article>
+              <h3 data-pt="Finalizado" data-en="Completed">Finalizado</h3>
+              <a href="https://github.com/PedrosaFelipe/insiders_clustering" class="image"><img
+                  src="images/how-to-build-customer-loyalty.png" alt="" /></a>
+              <h3 data-pt="Construção de um programa de fidelidade com clusterização de clientes"
+                data-en="Building a loyalty program with customer clustering">Construção de um programa de fidelidade
+                com clusterização de clientes</h3>
+              <p data-pt="Eu usei Python e técnicas não-supervisionadas de Machine Learning para segmentar um grupo de clientes em base em suas características de performance de compra, a fim de selecionar grupos de clientes para formar um programa de Fidelidade com o objetivo de aumentar a receita da empresa."
+                data-en="I used Python and unsupervised Machine Learning techniques to segment a group of customers based on their purchase performance characteristics, in order to select customer groups to form a Loyalty program aimed at increasing company revenue.">
+                Eu usei Python e técnicas não-supervisionadas de Machine Learning para segmentar um grupo de clientes
+                em base em suas características de performance de compra,
+                a fim de selecionar grupos de clientes para formar um programa de Fidelidade com o objetivo de aumentar
+                a receita da empresa. </p>
+              <h4 data-pt="As ferramentas utilizadas foram:" data-en="Tools used:">As ferramentas utilizadas foram:</h4>
+              <ul>
+                <li>Git, Github, Gitlab.</li>
+                <li>Python, Pandas, Matplotlib e Seaborn.</li>
+                <li>Jupyter Notebook, Anaconda, papermill e WSL2.</li>
+                <li>K-Means, Hierarquical Clustering, GMM, DBScan.</li>
+                <li>AWS Cloud(EC2 , S3, Postgres, SQLITE).</li>
+                <li>Metabase Visualization.</li>
+              </ul>
+              <ul class="actions">
+                <li><a href="https://github.com/PedrosaFelipe/insiders_clustering" class="button" data-pt="Saiba Mais"
+                    data-en="Learn More">Saiba Mais</a></li>
+              </ul>
+            </article>
+            <article>
+              <h3 data-pt="Em Andamento" data-en="In Progress">Em Andamento</h3>
+              <a href="https://github.com/PedrosaFelipe/airbnb_predic" class="image"><img src="images/data_analysis.jpg"
+                  alt="" /></a>
+              <h3 data-pt="Identificação de imóveis para compra e revenda a fim de maximizar os lucros "
+                data-en="Identifying properties for purchase and resale to maximize profits ">Identificação de imóveis
+                para compra e revenda a fim de maximizar os lucros </h3>
+              <p data-pt="Identificação de imovéis abaixo do preço médio de venda e definição do preço ideal de revenda, a partir de uma ánalise exploratória de dados em Python."
+                data-en="Identification of properties priced below the average sale price and definition of the ideal resale price, based on exploratory data analysis in Python.">
+                Identificação de imovéis abaixo do preço médio de venda e definição do preço ideal de revenda, a partir
+                de uma ánalise exploratória de dados em Python.</p>
+              <h4 data-pt="As ferramentas utilizadas foram:" data-en="Tools used:">As ferramentas utilizadas foram:</h4>
+              <ul>
+                <li>Git, Github, Gitlab.</li>
+                <li>Python, Pandas, Numpy e Seaborn.</li>
+                <li>Jupyter Notebook, Anaconda, VS Code e WSL2.</li>
+                <li>Mapas interativos com Plotly e Folium.</li>
+                <li>Heroku cloud.</li>
+                <li>Streamlit Python framework web.</li>
+              </ul>
+              <ul class="actions">
+                <li><a href="https://github.com/PedrosaFelipe/airbnb_predict" class="button" data-pt="Saiba Mais"
+                    data-en="Learn More">Saiba Mais</a></li>
+              </ul>
+            </article>
+            <article>
+              <h3 data-pt="Finalizado" data-en="Completed">Finalizado</h3>
+              <a href="https://github.com/PedrosaFelipe/DS-Producao" class="image"><img
+                  src="images/o-gráfico-do-crescimento-das-vendas-114182277.jpg" alt="" /></a>
+              <h3 data-pt="Projeto para predizer o total de lucro da Rossmann store pata até 6 semanas adiante"
+                data-en="Project to predict the total profit of Rossmann stores up to 6 weeks ahead">Projeto para
+                predizer o total de lucro da Rossmann store pata até 6 semanas adiante</h3>
+              <p data-pt="O modelo prediz o quanto as lojas da Rossmann irão lucrar em 6 semanas e envia as informações do seu interesse no mesmo instante via API para o telegram."
+                data-en="The model predicts how much Rossmann stores will profit in 6 weeks and sends the information of interest instantly via API to Telegram.">
+                O modelo prediz o quanto as lojas da Rossmann irão lucrar em 6 semanas e envia as informações do seu
+                interesse no mesmo instante via API para o telegram.</p>
+              <h4 data-pt="As ferramentas utilizadas foram:" data-en="Tools used:">As ferramentas utilizadas foram:</h4>
+              <ul>
+                <li>Git, Github, Gitlab.</li>
+                <li>Python, Pandas, Numpy, Seaborn e Matplotlib.</li>
+                <li>Jupyter Notebook, Anaconda, VS Code e WSL2.</li>
+                <li>Linear Regressor Lasso , Random Forest Regressor, XGboost.</li>
+                <li>Heroku cloud.</li>
+                <li>Flask, Telegram API.</li>
+              </ul>
+              <ul class="actions">
+                <li><a href="https://github.com/PedrosaFelipe/DS-Producao" class="button" data-pt="Saiba Mais"
+                    data-en="Learn More">Saiba Mais</a></li>
+              </ul>
+            </article>
+            <article>
+              <h3 data-pt="Finalizado" data-en="Completed">Finalizado</h3>
+              <a href="https://github.com/PedrosaFelipe/health_insurance" class="image"><img
+                  src="images/health-insurance.jpg" alt="" /></a>
+              <h3 data-pt="Objetivo ajudar numa campanha para uma venda cross-sell."
+                data-en="Goal: help with a cross-sell campaign.">Objetivo ajudar numa campanha para uma venda
+                cross-sell.</h3>
+              <p data-pt="O modelo Random Forest Classifier irá criar um rank dos clientes mais favoráveis a comprar da empresa um novo seguro de vida, sendo que o mesmo já possui um seguro de carro pela mesma companhia"
+                data-en="The Random Forest Classifier model creates a ranking of the customers most likely to buy a new life insurance policy from the company, given that they already have a car insurance policy with the same company.">
+                O modelo Random Forest Classifier irá criar um rank dos clientes mais favoráveis a comprar da empresa
+                um novo seguro de vida, sendo que o mesmo já possui um seguro de carro pela mesma companhia</p>
+              <h4 data-pt="As ferramentas utilizadas foram:" data-en="Tools used:">As ferramentas utilizadas foram:</h4>
+              <ul>
+                <li>Git, Github, Gitlab.</li>
+                <li>Python, Pandas, Numpy, Seaborn e Matplotlib.</li>
+                <li>Jupyter Notebook, Anaconda, VS Code, WSL2 e SQL.</li>
+                <li>KNN , Logistic Regression, Extra Trees, Random Forest Classifier.</li>
+                <li>SQL Postegres.</li>
+                <li>Flask, Telegram API.</li>
+              </ul>
+              <ul class="actions">
+                <li><a href="https://github.com/PedrosaFelipe/health_insurance" class="button" data-pt="Saiba Mais"
+                    data-en="Learn More">Saiba Mais</a></li>
+              </ul>
+            </article>
+            <article>
+              <h3 data-pt="Finalizado" data-en="Completed">Finalizado</h3>
+              <a href="https://github.com/PedrosaFelipe/churn_predict" class="image"><img src="images/churn.jpg"
+                  alt="" /></a>
+              <h3
+                data-pt="A missão é identificar os clientes que renovarão sua conta no banco no proximo ano e quantos entrarão em churn."
+                data-en="The mission is to identify which customers will renew their bank account next year and how many will churn.">
+                A missão é identificar os clientes que renovarão sua conta no banco no proximo ano e quantos entrarão
+                em churn.</h3>
+              <p data-pt="Usando o XGboost criamos um ranking com os clientes mais provaveis a entrarem em churn ao menos prováveis afim de que se possa criar estratégias."
+                data-en="Using XGBoost, we created a ranking of customers from most to least likely to churn, so that strategies could be created.">
+                Usando o XGboost criamos um ranking com os clientes mais provaveis a entrarem em churn ao menos
+                prováveis afim de que se possa criar estratégias.</p>
+              <h4 data-pt="As ferramentas utilizadas foram:" data-en="Tools used:">As ferramentas utilizadas foram:</h4>
+              <ul>
+                <li>Git, Github, Gitlab.</li>
+                <li>Python, Pandas, Numpy, Seaborn, Matplotlib e Hyperopt.</li>
+                <li>Jupyter Notebook, Anaconda, VS Code, WSL2.</li>
+                <li>SVM , Logistic Regression, XGboost, Random Forest Classifier.</li>
+                <li>Plot Cumulative Gain e Lift Curve.</li>
+              </ul>
+              <ul class="actions">
+                <li><a href="https://github.com/PedrosaFelipe/churn_predict" class="button" data-pt="Saiba Mais"
+                    data-en="Learn More">Saiba Mais</a></li>
+              </ul>
+            </article>
+            <article>
+              <h3 data-pt="Finalizado" data-en="Completed">Finalizado</h3>
+              <a href="https://github.com/PedrosaFelipe/teste_bayesiana" class="image"><img
+                  src="images/icon-teste-a-b.png" alt="" /></a>
+              <h3
+                data-pt="O teste A/B é uma dos métodos mais utilizados pelos Cientistas de Dados para validar hipóteses de negócio sobre qual página web tem maior conversão, qual o melhor cupom de desconto, qual o melhor preço promocional e assim por diante."
+                data-en="A/B testing is one of the most widely used methods by Data Scientists to validate business hypotheses about which web page has the highest conversion, which is the best discount coupon, which is the best promotional price, and so on.">
+                O teste A/B é uma dos métodos mais utilizados pelos Cientistas de Dados para validar hipóteses de
+                negócio sobre qual página web tem maior conversão, qual o melhor cupom de desconto,
+                qual o melhor preço promocional e assim por diante.</h3>
+              <p data-pt="Analisar um teste A/B usando tanto técnicas tradicionais da Estatística, quanto técnicas modernas de Multi-Armed Bandit (MAB)."
+                data-en="Analyzing an A/B test using both traditional Statistics techniques and modern Multi-Armed Bandit (MAB) techniques.">
+                Analisar um teste A/B usando tanto técnicas tradicionais da Estatística,
+                quanto técnicas modernas de Multi-Armed Bandit (MAB).</p>
+              <h4 data-pt="As ferramentas utilizadas foram:" data-en="Tools used:">As ferramentas utilizadas foram:</h4>
+              <ul>
+                <li>Git, Github, Gitlab.</li>
+                <li>Python, Pandas, Numpy, Matplotlib, scipy .</li>
+                <li>Jupyter Notebook, Anaconda, VS Code, WSL2.</li>
+                <li>chromedriver, flask , selenium </li>
+              </ul>
+              <ul class="actions">
+                <li><a href="https://github.com/PedrosaFelipe/teste_bayesiana" class="button" data-pt="Saiba Mais"
+                    data-en="Learn More">Saiba Mais</a></li>
+              </ul>
+            </article>
+            <article>
+              <h3 data-pt="Finalizado" data-en="Completed">Finalizado</h3>
+              <a href="https://github.com/PedrosaFelipe/curso_git_cds" class="image"><img src="images/git_flow.png"
+                  alt="" /></a>
+              <h3
+                data-pt="Este repositório foi criado para hospedar o projeto de analise de dados utilizado como fim de entender toda a ferramenta git."
+                data-en="This repository was created to host a data analysis project used to fully understand the git tool.">
+                Este repositório foi criado para hospedar o projeto de analise de dados
+                utilizado como fim de entender toda a ferramenta git.</h3>
+              <p data-pt="A empresa XGB Sales lhe contratou como cientista de dados pois ela deseja aumentar o seu lucro comprando e revendendo as melhores motos disponíveis dentro da base de dados que a empresa adquiriu através de um estudo de mercado."
+                data-en="The company XGB Sales hired you as a data scientist because it wants to increase its profit by buying and reselling the best motorcycles available within the database the company acquired through a market study.">
+                A empresa XGB Sales lhe contratou como cientista de dados pois ela deseja aumentar o seu lucro
+                comprando e revendendo as melhores motos disponíveis dentro da
+                base de dados que a empresa adquiriu através de um estudo de mercado.</p>
+              <h4 data-pt="As ferramentas utilizadas foram:" data-en="Tools used:">As ferramentas utilizadas foram:</h4>
+              <ul>
+                <li>Git, Github, Gitlab.</li>
+                <li>Python, Pandas, Numpy, Matplotlib, seaborn, datetime .</li>
+                <li>Jupyter Notebook, Anaconda, VS Code, WSL2.</li>
+                <li>streamlit </li>
+              </ul>
+              <ul class="actions">
+                <li><a href="https://github.com/PedrosaFelipe/curso_git_cds" class="button" data-pt="Saiba Mais"
+                    data-en="Learn More">Saiba Mais</a></li>
+              </ul>
+            </article>
+            <article>
+              <h3 data-pt="Finalizado" data-en="Completed">Finalizado</h3>
+              <a href="https://github.com/PedrosaFelipe/blocker-fraud-company" class="image"><img src="images/fraud.png"
+                  alt="" /></a>
+              <h3 data-pt="Este projeto visa criar uma detecção de fraude com alta precisão."
+                data-en="This project aims to create a high-precision fraud detection system.">Este projeto visa criar
+                uma detecção de fraude com alta precisão.</h3>
+              <p data-pt="De acordo com a Infosecurity Magazine, a fraude custou à economia global £ 3,2 trilhões em 2018. Para algumas empresas, as perdas por fraude chegam a mais de 10% de seus gastos totais. Essas perdas maciças levam as empresas a buscar novas soluções para prevenir, detectar e eliminar fraudes."
+                data-en="According to Infosecurity Magazine, fraud cost the global economy £3.2 trillion in 2018. For some companies, fraud losses reach more than 10% of their total expenses. These massive losses lead companies to seek new solutions to prevent, detect and eliminate fraud.">
+                De acordo com a Infosecurity Magazine, a fraude custou à economia global £ 3,2 trilhões em 2018. Para
+                algumas empresas, as perdas por fraude chegam a mais de 10% de seus gastos totais. Essas perdas maciças
+                levam as empresas a buscar novas soluções para prevenir, detectar e eliminar fraudes.</p>
+              <h4 data-pt="As ferramentas utilizadas foram:" data-en="Tools used:">As ferramentas utilizadas foram:</h4>
+              <ul>
+                <li>Git, Github, Gitlab.</li>
+                <li>Python, Pandas, Numpy, Matplotlib, seaborn, sklearn .</li>
+                <li>Jupyter Notebook, Anaconda, VS Code, WSL2, pyspark.</li>
+                <li>lightgbm , catboost , xgboost , hyperopt </li>
+                <li>roc_auc_score , recall_score , f1_score , matthews_corrcoef , make_scorer , roc_curve ,
+                  confusion_matrix </li>
+              </ul>
+              <ul class="actions">
+                <li><a href="https://github.com/PedrosaFelipe/blocker-fraud-company" class="button" data-pt="Saiba Mais"
+                    data-en="Learn More">Saiba Mais</a></li>
+              </ul>
+            </article>
+            <article>
+              <h3 data-pt="Finalizado" data-en="Completed">Finalizado</h3>
+              <a href="https://github.com/PedrosaFelipe/curry_company" class="image"><img src="images/curry.png"
+                  alt="" /></a>
+              <h3 data-pt="Desenvolvimento de um painel para Marktplace de entregas com o Streamlit."
+                data-en="Development of a dashboard for a delivery Marketplace using Streamlit.">Desenvolvimento de um
+                painel para Marktplace de entregas com o Streamlit.</h3>
+              <p data-pt="Neste projeto, os conceitos de programação em python, manipulação de dados, pensamento estratégico e lógica de negócio, junto com ferramentas de desenvolvimento web como Streamlit e Github, foram usados para desenvolver um painel gerencial com as principais métricas de uma empresa marktplace de delivery de comida na India."
+                data-en="In this project, Python programming concepts, data manipulation, strategic thinking and business logic, along with web development tools such as Streamlit and Github, were used to develop a management dashboard with the main metrics of a food delivery marketplace company in India.">
+                Neste projeto, os conceitos de programação em python, manipulação de dados, pensamento estratégico e
+                lógica de negócio, junto com ferramentas
+                de desenvolvimento web como Streamlit e Github, foram usados para desenvolver um painel gerencial com as
+                principais métricas de uma empresa marktplace de delivery de comida na India.</p>
+              <p data-pt="O resultado final do projeto foi um painel hospedado em um ambiente Cloud e disponibilizado atráves de um link web. O painel pode ser acessado por qualquer dispositivo via internet."
+                data-en="The final result of the project was a dashboard hosted in a Cloud environment and made available through a web link. The dashboard can be accessed from any device via the internet.">
+                O resultado final do projeto foi um painel hospedado em um ambiente Cloud e disponibilizado atráves de
+                um link web. O painel pode ser acessado por qualquer dispositivo via internet.</p>
+              <h4 data-pt="As ferramentas utilizadas foram:" data-en="Tools used:">As ferramentas utilizadas foram:</h4>
+              <ul>
+                <li>Python.</li>
+                <li>Jupyter Notebook, Anaconda, VS Code, WSL2, terminal.</li>
+                <li>Streamlit </li>
+                <li>Streamlit Cloud , Github</li>
+              </ul>
+              <ul class="actions">
+                <li><a href="https://github.com/PedrosaFelipe/curry_company" class="button" data-pt="Saiba Mais"
+                    data-en="Learn More">Saiba Mais</a></li>
+              </ul>
+            </article>
+          </div>
+
+
+        </section>
+
+        <!-- Section -->
+        <section>
+          <header class="major">
+            <h2 data-pt="Entre em contado:" data-en="Get in touch:">Entre em contado:</h2>
+          </header>
+          <p data-pt="Sinta-se à vontade para entrar em contato." data-en="Feel free to reach out.">Sinta-se à vontade
+            para entrar em contato.</p>
+          <ul class="contact">
+            <li class="icon solid fa-envelope"><a href="#"><b>felipepedrosacpv@gmail.com</b></a></li>
+            <li class="icon brands fa-linkedin"><a
+                href="https://www.linkedin.com/in/felipe-pedrosa-5166961b0/"><b>LinkedIn</b></a></li>
+            <li class="icon brands fa-medium"><a href=" https://medium.com/@felipepedrosacpv"><b>Medium</b></a></li>
+          </ul>
+        </section>
+
+
+      </div>
+    </div>
+
+
+  </div>
+
+  <script>
+    function setLang(lang) {
+      document.querySelectorAll('[data-pt]').forEach(function (el) {
+        el.innerHTML = el.getAttribute('data-' + lang);
+      });
+      document.getElementById('html-root').lang = (lang === 'pt') ? 'pt-BR' : 'en';
+      document.getElementById('page-title').textContent = (lang === 'pt')
+        ? 'Projetos de Portifólio de ciência de dados'
+        : 'Data Science Project Portfolio';
+      document.getElementById('btn-pt').classList.toggle('active', lang === 'pt');
+      document.getElementById('btn-en').classList.toggle('active', lang === 'en');
+    }
+  </script>
+
+</body>
+
+</html>
